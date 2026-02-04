@@ -1,0 +1,14 @@
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+*.swp
+*.swo
+*~
+.vscode/
+.idea/
+
+# Private notes (uncomment if you want to keep some notes out of version control)
+# notes/raw-transcripts.md
+# notes/editorial-guide.md
