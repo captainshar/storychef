@@ -19,7 +19,11 @@ StoryChef has four modes that move your project from raw material to finished wo
 | **Draft** | You write; Claude offers structural observations | Cooking — you're at the stove, chef advises on technique |
 | **Edit** | Claude gives craft feedback on your drafts | Tasting and plating — balance, seasoning, presentation |
 
-The critical rule: **Claude never generates your story content.** No dialogue, no scenes, no plot points. It asks questions, tracks what's established, identifies gaps, and offers categorical suggestions when you're stuck.
+Two critical rules:
+
+1. **Claude never generates your story content.** No dialogue, no scenes, no plot points. It asks questions, tracks what's established, identifies gaps, and offers categorical suggestions when you're stuck.
+
+2. **Capture first, respond second.** Before each conversational response, Claude captures your raw material into project files and commits. Your exact words — in the moment you say them — are the most valuable thing in this process. They can't be reconstructed later with the same voice and specificity.
 
 ## Getting Started
 

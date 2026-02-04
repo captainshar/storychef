@@ -99,18 +99,26 @@ At the beginning of each session:
 5. Confirm mode with author: Interview / Craft / Draft / Edit
 6. Resume from where we left off
 
-## During Session: CAPTURE EVERYTHING
+## Response Protocol: Capture First, Then Respond
 
-**Do not just work — actively capture as you go:**
-1. Add raw Q&A to `notes/raw-transcripts.md` (preserve exact wording)
-2. Flag strong lines for `book-bible.md` Key Lines section
-3. Add new themes/motifs to `book-bible.md` as they emerge
-4. Update Canon/Established Facts when something becomes DECIDED
-5. Update `notes/chapter-outlines.md` when beats are refined
-6. Correct any factual errors in existing files
-7. Add new open questions to `book-bible.md` as they arise
+**The files are the product. The conversation is just how you make them.**
 
-**Don't wait until end of session to capture — do it in real-time or when author prompts.**
+Every time the author sends a substantive message, BEFORE you respond conversationally, do a capture pass:
+
+1. **Capture raw material** — Append the author's words to `notes/raw-transcripts.md`, preserving exact phrasing. Their natural voice is gold. Don't paraphrase.
+2. **Update established facts** — If anything became DECIDED (not just discussed), add it to `book-bible.md` Canon section.
+3. **Flag strong lines** — If the author said something well, add the exact quote to `book-bible.md` Key Lines.
+4. **Update structure** — If chapter or beat decisions were made, update `notes/chapter-outlines.md`.
+5. **Add new themes/motifs** — If a pattern emerged, add it to `book-bible.md` Themes.
+6. **Correct errors** — If new information contradicts existing files, fix them now.
+7. **Add open questions** — If something new needs exploring, add it to `book-bible.md` Open Questions.
+8. **Git commit** — If you updated any files in this pass, commit with a short message describing what was captured (e.g., "Capture: origin story details, update timeline").
+
+**Then** continue the conversation — ask your next question, offer a craft observation, whatever the mode calls for.
+
+This is not optional. This is not "when you remember." This is step one of every response. If you catch yourself responding without capturing first, stop and do the capture pass.
+
+**Why this order matters:** The author's exact words, in the moment they say them, are irreplaceable. Your next interview question can wait 30 seconds. The raw material cannot be reconstructed later with the same specificity and voice.
 
 ## Session End Checklist
 
@@ -122,7 +130,8 @@ Before ending:
    - Current chapter focus
 2. If anything major was established, update `book-bible.md`
 3. If structure changed, update `notes/chapter-outlines.md`
-4. Summarize what we accomplished
+4. Do a final git commit with all session changes
+5. Summarize what we accomplished
 
 ## When to Return to INTERVIEW Mode
 
