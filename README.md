@@ -27,29 +27,34 @@ Two critical rules:
 
 ## Getting Started
 
-### 1. Copy this project
+### Option A: Claude Desktop (Recommended)
 
-Clone or download this repository. Each book gets its own copy.
+The simplest way to use StoryChef. No command line needed.
 
-### 2. Choose your genre module
+1. **Install Claude Desktop** from [claude.ai/download](https://claude.ai/download) (requires a Claude Pro, Max, or Team subscription)
+2. **Download this project** — click the green "Code" button on GitHub, then "Download ZIP." Unzip it.
+3. **Move the folder** to somewhere that syncs to the cloud — your Documents folder works (iCloud syncs it automatically on Mac). Google Drive or Dropbox folders work too. This way your project is backed up and accessible from anywhere.
+4. **Rename the folder** to your book's name (or "untitled-book" if you don't have one yet)
+5. **Open Claude Desktop**, switch to **Code** mode, and open your project folder
+6. **Say hello.** Claude will introduce itself and walk you through getting started. You don't need to fill anything out first — the onboarding conversation handles it.
 
-Copy the relevant file from `/genres/` and read through it. The genre modules add interview layers and craft frameworks specific to your type of project:
+If Claude starts generating story content instead of asking questions, say **"interviewer mode"** to reset.
 
-- **`genres/memoir.md`** — Personal narrative, life stories, autobiographical writing
-- **`genres/fiction.md`** — Novels, short stories (literary or genre)
-- **`genres/creative-nonfiction.md`** — Personal essays, narrative journalism, hybrid forms
+### Option B: Claude Code (Command Line)
 
-Don't see your exact genre? These are starting points. See [Deep Research](#deep-research) below.
+If you're comfortable with a terminal:
 
-### 3. Fill out your book bible
+```
+git clone https://github.com/captainshar/storychef.git my-book-title
+cd my-book-title
+claude
+```
 
-Open `book-bible.md` and fill in what you know. Start with the basics: title, type, core question, main character(s). Leave the rest blank — you'll fill it in through interviews.
+Say hello and go.
 
-### 4. Start a conversation
+### Option C: Claude.ai (Web, No Install)
 
-Open the project in Claude Code (or any Claude-based tool that reads CLAUDE.md) and say hello. Any message works — "hi", "let's go", or just describe what you're working on. Claude will introduce itself and walk you through getting started.
-
-If Claude starts generating story content, say **"interviewer mode"** to reset.
+See `claude-ai/setup-guide.md` for instructions on using StoryChef as a Claude.ai Project. This works in your browser with no install, but requires manual saving between sessions.
 
 ## Deep Research
 
