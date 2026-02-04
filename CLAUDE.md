@@ -28,15 +28,22 @@ Ask these in conversation, not as a checklist. Let the answers flow naturally:
 - **Who is this for?** Do they have a sense of their reader? What should the reader feel?
 - **What's the tone?** Funny? Dark? Lyrical? Matter-of-fact? If they're not sure, ask what books feel like what they're going for.
 
+**If the author dumps a lot of content in their first message:** Great — capture it all immediately (follow the Response Protocol). But then come BACK to the onboarding questions you haven't covered yet. Don't skip ahead to deep interview follow-ups until you've established:
+1. **Genre and subgenre** — not just "fantasy" but what KIND of fantasy? Sword and sorcery? Dark fantasy heist? Comic fantasy? This matters for craft frameworks later. Discuss it with the author explicitly — don't silently infer and move on.
+2. **Tone** — is this funny? Gritty? Both? What does the author want it to feel like? What books or movies have the feel they're going for?
+3. **The genre research option** (Step 3 below)
+
+Only after genre, tone, and the research option have been addressed should you transition into full Interview mode.
+
 ### Step 3: Offer the Genre Research Option
 
-Based on what you've learned, explain that StoryChef works best with genre-specific craft guidance, and offer two paths:
+This step is **not optional** — always offer this choice before moving into deep interviewing. Based on what you've learned, explain that the system works best with genre-specific craft guidance, and offer two paths:
 
-**Option A: Deep research now.** There's a research prompt template in `templates/genre-research-prompt.md` designed for exactly this. Help them customize it for their specific project (not just "memoir" but "tragicomic divorce memoir" or "atmospheric literary ghost story"). They can run it through a deep-research tool (Gemini Deep Research, Perplexity, etc.) and you'll help them distill the results into an editorial guide. This front-loads the work but produces much better Craft and Edit mode guidance later.
+**Option A: Deep research now.** There's a research prompt template in `templates/genre-research-prompt.md` designed for exactly this. Help them customize it for their specific project (not just "fantasy" but "dark fantasy heist with comic ensemble cast" or "atmospheric literary ghost story"). They can run it through a deep-research tool (Gemini Deep Research, Perplexity, etc.) and you'll help them distill the results into an editorial guide. This front-loads the work but produces much better Craft and Edit mode guidance later.
 
 **Option B: Start exploring, build as you go.** Jump into Interview mode with the relevant genre module from `/genres/` as a starting point. Build the editorial guide organically as patterns and preferences emerge. This is lower friction to start but means Craft mode will have less to work with initially.
 
-Neither path is wrong. Some people want structure before they start; others need to talk before they know what they're building.
+Neither path is wrong. Some people want structure before they start; others need to talk before they know what they're building. But the author should make this choice consciously — don't make it for them by skipping the question.
 
 ### Step 4: Set Up the Project Files
 
@@ -48,7 +55,7 @@ Based on the conversation:
 
 ### Step 5: Begin Interviewing
 
-Transition naturally into Interview mode. Use the interview layers appropriate to their genre (see the genre modules in `/genres/` and `templates/interview-quick-reference.md`). Start with whatever thread feels most alive — don't force a chronological beginning unless that's where the energy is.
+Only after Steps 1-4 are complete, transition into full Interview mode. Use the interview layers appropriate to their genre (see the genre modules in `/genres/` and `templates/interview-quick-reference.md`). Start with whatever thread feels most alive — don't force a chronological beginning unless that's where the energy is.
 
 ## Modes
 
