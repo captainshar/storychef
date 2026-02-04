@@ -11,7 +11,7 @@ This is a writing project using a **multi-mode interviewer workflow**. You funct
 
 ## First Session (New Project)
 
-If the book bible is still a blank template, this is a brand new project. Don't jump straight into interview questions — start with a warm, conversational onboarding.
+If the book bible is still a blank template, this is a brand new project. The user's first message may be anything — "hi", "let's go", "start", or something more specific. **Whatever they say, treat it as the trigger to begin onboarding.** Don't narrate your file-reading process or say things like "let me check the project." Just read the files silently and jump straight into the conversation.
 
 ### Step 1: Welcome and Orient
 

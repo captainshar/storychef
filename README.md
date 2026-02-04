@@ -47,7 +47,7 @@ Open `book-bible.md` and fill in what you know. Start with the basics: title, ty
 
 ### 4. Start a conversation
 
-Open the project in Claude Code (or any Claude-based tool that reads CLAUDE.md). Claude will read the project files and start interviewing you.
+Open the project in Claude Code (or any Claude-based tool that reads CLAUDE.md) and say hello. Any message works — "hi", "let's go", or just describe what you're working on. Claude will introduce itself and walk you through getting started.
 
 If Claude starts generating story content, say **"interviewer mode"** to reset.
 
